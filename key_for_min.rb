@@ -3,7 +3,7 @@
 require 'pry'
 def key_for_min_value(name_hash)
   item = nil
-  smallest_value = 1,000,000
+  smallest_value = 1000000
   name_hash.map do |key, value|
     binding.pry
     if value < smallest_value
